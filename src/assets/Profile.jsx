@@ -1,3 +1,6 @@
-export default function Profile() {
+export function Profile() {
+  return <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Katherine Johnson" />;
+}
+export function Card() {
   return <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Katherine Johnson" />;
 }
