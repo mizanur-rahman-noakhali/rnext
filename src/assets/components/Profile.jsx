@@ -1,6 +1,11 @@
-export function Profile() {
-  return <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Katherine Johnson" />;
-}
-export function Card() {
-  return <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Katherine Johnson" />;
+// export default function Profile(props) {
+//   return (
+//     <div>
+//       <Avatar {...props} />
+//       <Info age={props.age} />
+//     </div>
+//   );
+// }
+export default function Profile({ children }) {
+  return <div>{children}</div>;
 }
