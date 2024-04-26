@@ -1,5 +1,4 @@
-import Avatar from "./assets/components/Avatar";
-import Profile from "./assets/components/Profile";
+import PackingList from "./assets/components/PackingList";
 
 export default function App() {
   // const person = "Tamim";
@@ -8,10 +7,7 @@ export default function App() {
   return (
     <div>
       <div>
-        {/* <Profile person={person} size={size} age={age} /> */}
-        <Profile>
-          <Avatar />
-        </Profile>
+        <PackingList></PackingList>
       </div>
     </div>
   );
